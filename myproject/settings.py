@@ -166,3 +166,8 @@ AUTH_USER_MODEL = 'users.CustomUser'
 
 AXES_FAILURE_LIMIT = 5  # Limita los intentos fallidos
 AXES_COOLOFF_TIME = 1  # En minutos, cuánto tiempo se bloquea después de varios intentos fallidos
+
+
+#PARA DESLOGEARSE
+
+LOGOUT_REDIRECT_URL = '/'
